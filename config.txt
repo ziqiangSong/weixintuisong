@@ -1,0 +1,27 @@
+{
+# 公众号配置
+# 公众号appId
+"app_id": "wx298706ffe422be63",
+# 公众号appSecret
+"app_secret": "0e1a65545031c3db644ff9447eae7d9c",
+# 模板消息id
+"template_id": "Kd54Yebz3YY32U74rgqdVdqsq9-6n39AwrLjCoiv6EI",
+# 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如["wx1", "wx2"]
+"user": ["obvZy6AnSnD3305SVYJg2JpN8UUg","obvZy6E7vvX0mV3Tv46j28bwD-T4"],
+ 
+# 信息配置
+# 和风天气apikey
+"weather_key": "71c74f6cea844abc8d0b83d596e42fd2",
+# 所在地区，可为省，城市，区，县，同时支持国外城市，例如伦敦
+"region": "开封市",
+# 生日1，修改名字为对应需要显示的名字，如果生日为农历，在最前面加上r即可
+"birthday1": {"name": "媳妇儿", "birthday": "r2001-01-05"},
+# 生日2
+"birthday2": {"name": "宋子强", "birthday": "r2001-07-05"},
+# 在一起的日子，格式同上，暂不不支持农历
+"love_date": "2018-01-22",
+# 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
+"note_ch": "星光不问赶路人，时光不负奋斗者",
+# 金句英文
+"note_en": "starlight does not ask the passers-by, and the time does not live up to the strivers"
+}
